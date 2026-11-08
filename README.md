@@ -1,4 +1,5 @@
 # CPS-Security-Research-Portfolio
-# physics-aware attack detection for critical infrastructure
+## physics-aware attack detection for critical infrastructure
 
-Status: Phase 1 in progress.
+Python and MATLAB foundations (Phase 1, Sections 1-2) were completed before this repo was created; scripts will be added.
+Status: Phase 1 (section 3) in progress.
