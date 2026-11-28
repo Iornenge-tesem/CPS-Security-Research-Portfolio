@@ -67,7 +67,7 @@ Multi-byte numbers are sent high byte first.
 The PLC replies with an exact copy of the request. The matching transaction ID tells the client which request was answered.
 
 ### Example: a read of the level
-Request `00 01 00 00 00 06 01 03 00 00 00 01` reads one holding register starting at address 0. A reply such as `00 01 00 00 00 05 01 03 02 00 EB` carries a byte count of 2 and the value `00 EB`, which is 235, or 2.35 m after undoing the scaling.
+Request `00 01 00 00 00 06 01 04 00 00 00 01` reads one input register starting at address 0. A reply such as `00 01 00 00 00 05 01 04 02 00 EB` carries a byte count of 2 and the value `00 EB`, which is 235, or 2.35 m after undoing the scaling.
 
 ## My tank mapped to Modbus objects
 
